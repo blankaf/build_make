@@ -1290,8 +1290,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   device = target_info.GetBuildProp("org.pixelexperience.device")
 
   script.Print("----------------------------------------------");
-  script.Print("              Pixel Experience");
-  script.Print("               by jhenrique09");
+  script.Print("              PE ButterySmooth");
+  script.Print("                 by blankaf");
   script.Print("----------------------------------------------");
   script.Print(" Android version: %s"%(android_version));
   script.Print(" Build id: %s"%(build_id));
@@ -2073,8 +2073,8 @@ else if get_stage("%(bcb_dev)s") != "3/3" then
   security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
 
   script.Print("----------------------------------------------");
-  script.Print("              Pixel Experience");
-  script.Print("               by jhenrique09");
+  script.Print("              PE ButterySmooth");
+  script.Print("                 by blankaf");
   script.Print("----------------------------------------------");
   script.Print(" Android version: %s"%(android_version));
   if prev_build_id != build_id:
@@ -2611,8 +2611,8 @@ def WriteIncrementalOTAPackage(target_zip, source_zip, output_file):
   security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
 
   script.Print("----------------------------------------------");
-  script.Print("              Pixel Experience");
-  script.Print("               by jhenrique09");
+  script.Print("              PE ButterySmooth");
+  script.Print("                 by blankaf");
   script.Print("----------------------------------------------");
   script.Print(" Android version: %s"%(android_version));
   if prev_build_id != build_id:
